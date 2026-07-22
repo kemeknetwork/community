@@ -1,0 +1,102 @@
+# Dormant until a "Bugs" discussion category exists on the repository.
+# GitHub matches a template file to a category by slug: this file applies only
+# once a category slugged `bugs` is created. Until then it is inert, and bug
+# reports land in Q&A. See STATE.md for the follow-up.
+title: "[Bug] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Security vulnerabilities do not belong here.** Email
+        security@kemek.com instead — a public bug report tells attackers before
+        it tells us.
+
+        **Redact secrets.** Strip API keys, tokens, passwords, session cookies,
+        and personal data from logs and screenshots. Posts here are public and
+        permanent.
+
+  - type: input
+    id: product
+    attributes:
+      label: Product or site
+      description: Which KeMeK product, tool, or domain is broken?
+      placeholder: e.g. kemek.net hosting, KeMeK QR, kemek.com
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Exact steps, in order, that someone else could follow.
+      placeholder: |
+        1. Went to …
+        2. Clicked …
+        3. Entered …
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead?
+      description: >-
+        Paste the actual error or output as text rather than a screenshot, so
+        it can be searched. Screenshots are welcome in addition, especially for
+        visual bugs.
+      render: text
+    validations:
+      required: true
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      options:
+        - Every time
+        - Often, but not always
+        - Once, and I could not reproduce it
+        - Not sure yet
+    validations:
+      required: true
+
+  - type: input
+    id: regression
+    attributes:
+      label: Did this ever work?
+      description: If it broke recently, roughly when did it last work?
+      placeholder: e.g. worked last week, never worked for me, not sure
+    validations:
+      required: false
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser and version, operating system, device, product version.
+      placeholder: |
+        Browser: Firefox 141 on Ubuntu 24.04
+        Device: desktop
+        Version: …
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you post
+      options:
+        - label: I searched existing discussions and this is not already reported.
+          required: true
+        - label: This is not a security vulnerability.
+          required: true
+        - label: I removed secrets and personal data from everything I pasted.
+          required: true

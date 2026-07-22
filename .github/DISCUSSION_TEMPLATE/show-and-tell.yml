@@ -1,0 +1,47 @@
+title: ""
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Show us what you made. Working, half-working, and abandoned-but-
+        interesting all qualify.
+
+        Only post links and screenshots you have the right to share — check
+        before posting client work.
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What did you build?
+      description: A sentence or two on what it is and who it is for.
+    validations:
+      required: true
+
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: A live URL, repository, or video. Optional.
+      placeholder: https://
+    validations:
+      required: false
+
+  - type: input
+    id: built-with
+    attributes:
+      label: Which KeMeK products did you use?
+      placeholder: e.g. kemek.net hosting + KeMeK QR
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything worth passing on?
+      description: >-
+        What surprised you, what you would do differently, what was harder
+        than it should have been. The last one is especially welcome — it is
+        how we find the rough edges.
+    validations:
+      required: false

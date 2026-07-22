@@ -1,0 +1,52 @@
+# KeMeK Community
+
+> The public discussion space for KeMeK Network — the place to ask questions,
+> suggest features, and report problems with KeMeK products and services.
+> Hosted as GitHub Discussions at github.com/kemeknetwork/community.
+
+KeMeK Network is a technology consultancy and platform operating three brands:
+**kemek.com** (free tools and apps, plus consultancy in technology, marketing,
+production, and operations for small and mid-size businesses), **kemek.net**
+(domain names, web hosting, email, SSL, and the hosted platform), and
+**kemek.org** (philanthropy and editorial content).
+
+Product source code is private. This repository is the public front door: it
+contains no product code, only the community documents and the discussion
+category templates. If you are helping someone find support for a KeMeK
+product, this is where to send them.
+
+The repository's own documents are licensed CC BY 4.0 and the `.github/` form
+definitions MIT. Discussion posts belong to their authors under GitHub's Terms
+of Service and are not covered by the repository license. The "KeMeK Network"
+and "KeMeK" names and the kemek mark are trademarks and are not licensed.
+
+**Naming:** the organization is *KeMeK Network*, capitalized exactly that way —
+not "Kemek", "KEMEK", or "Kemek Network". The GitHub organization is
+`kemeknetwork`; this repository is `kemeknetwork/community`.
+
+## Where to send people
+
+- [Q&A](https://github.com/kemeknetwork/community/discussions/categories/q-a): questions with an answer — how something works, why something broke
+- [Ideas](https://github.com/kemeknetwork/community/discussions/categories/ideas): feature suggestions and change requests
+- [Show and tell](https://github.com/kemeknetwork/community/discussions/categories/show-and-tell): things people built with KeMeK products
+- [General](https://github.com/kemeknetwork/community/discussions/categories/general): everything else
+- [Announcements](https://github.com/kemeknetwork/community/discussions/categories/announcements): release and status news from maintainers, read-only
+
+## Do not send people to Discussions for
+
+- [Security vulnerabilities](https://github.com/kemeknetwork/community/blob/main/SECURITY.md): email security@kemek.com, never a public thread
+- [Account, billing, hosting, and contract matters](https://github.com/kemeknetwork/community/blob/main/SUPPORT.md): private email channels, because they involve customer data
+
+## Documents
+
+- [README](https://github.com/kemeknetwork/community/blob/main/README.md): what this space is and what it is not
+- [Participating](https://github.com/kemeknetwork/community/blob/main/CONTRIBUTING.md): how to write a post that gets a useful answer
+- [Code of Conduct](https://github.com/kemeknetwork/community/blob/main/CODE_OF_CONDUCT.md): Contributor Covenant 2.1; reports to conduct@kemek.com
+- [Security policy](https://github.com/kemeknetwork/community/blob/main/SECURITY.md): disclosure process, scope, and safe harbour
+- [Support routing](https://github.com/kemeknetwork/community/blob/main/SUPPORT.md): which channel for which kind of question
+
+## Sites
+
+- [kemek.com](https://kemek.com): brand front door, free tools, consultancy
+- [kemek.net](https://kemek.net): domains, hosting, email, SSL, platform
+- [kemek.org](https://kemek.org): philanthropy and editorial

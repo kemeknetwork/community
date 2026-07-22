@@ -1,0 +1,86 @@
+title: "[Q&A] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before posting, please search existing discussions — your question may
+        already have an answer.
+
+        **Security vulnerabilities do not belong here.** Email
+        security@kemek.com instead. Account, billing, and contract matters go
+        to the private channels in SUPPORT.md.
+
+        **Redact secrets.** Strip API keys, tokens, passwords, session cookies,
+        and personal data from anything you paste. Posts here are public and
+        permanent.
+
+  - type: input
+    id: product
+    attributes:
+      label: Product or site
+      description: Which KeMeK product, tool, or domain is this about?
+      placeholder: e.g. kemek.net hosting, KeMeK QR, kemek.com
+    validations:
+      required: true
+
+  - type: textarea
+    id: goal
+    attributes:
+      label: What are you trying to do?
+      description: The outcome you want, not just the step you got stuck on.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: What did you do?
+      description: Exact steps, in order, that someone else could repeat.
+      placeholder: |
+        1. Went to …
+        2. Clicked …
+        3. Entered …
+    validations:
+      required: true
+
+  - type: textarea
+    id: result
+    attributes:
+      label: What happened instead?
+      description: >-
+        Paste the actual error or output as text rather than a screenshot, so
+        it can be searched. Screenshots are welcome in addition.
+      render: text
+    validations:
+      required: true
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you already tried?
+      description: Saves everyone a round-trip. Skip if this is your first attempt.
+    validations:
+      required: false
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser and version, operating system, device, product version.
+      placeholder: |
+        Browser: Firefox 141 on Ubuntu 24.04
+        Device: desktop
+        Version: …
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you post
+      options:
+        - label: I searched existing discussions for this question.
+          required: true
+        - label: I removed secrets and personal data from everything I pasted.
+          required: true

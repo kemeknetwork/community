@@ -1,0 +1,83 @@
+This repository is dual-licensed.
+
+  * Source code is licensed under the MIT License (below).
+  * Content (prose, documentation, non-brand assets) is licensed under the
+    Creative Commons Attribution 4.0 International License (CC BY 4.0):
+    https://creativecommons.org/licenses/by/4.0/legalcode
+  * Trademarks (the KeMeK Network name and mark) are NOT licensed. See the
+    "Trademarks" note at the end of this file.
+
+Discussion content is NOT covered by this file
+----------------------------------------------
+
+This repository hosts GitHub Discussions. Posts, comments, and any material
+contributed to a discussion thread remain the property of their authors and are
+governed by GitHub's Terms of Service, not by this license. Nothing here grants
+KeMeK Network any rights over what you write beyond what those terms provide,
+and nothing here licenses discussion content to third parties.
+
+What is code, what is content
+-----------------------------
+
+Code (MIT):
+  * .github/ — discussion category form definitions and repository
+    configuration
+
+Content (CC BY 4.0):
+  * README.md
+  * CODE_OF_CONDUCT.md
+  * CONTRIBUTING.md
+  * SECURITY.md
+  * SUPPORT.md
+  * llms.txt
+
+Trademarks (NOT licensed):
+  * The "KeMeK Network" and "KeMeK" names
+  * The kemek mark
+
+================================================================
+MIT License (applies to the code)
+================================================================
+
+Copyright (c) 2026 KeMeK Network
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================
+Creative Commons Attribution 4.0 International (applies to content)
+================================================================
+
+Copyright (c) 2026 KeMeK Network. Content licensed under CC BY 4.0.
+
+You are free to share (copy, redistribute) and adapt (remix, transform, build
+upon) the content for any purpose, including commercially, provided you give
+appropriate credit, link to the license, and indicate if changes were made.
+You may do so in any reasonable manner, but not in any way that suggests the
+licensor endorses you or your use.
+
+Full legal text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+================================================================
+Trademarks
+================================================================
+
+The "KeMeK Network" and "KeMeK" names and the kemek mark are trademarks of
+KeMeK Network. They are not covered by the code or content licenses. No rights
+to use the name or mark are granted by this repository. Independent forks must
+replace the brand name and mark with their own.

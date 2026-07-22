@@ -1,0 +1,55 @@
+title: "[Idea] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas here genuinely influence what gets built — but posting one is not
+        a commitment that it ships. Search first: an existing thread with votes
+        carries more weight than a second thread saying the same thing.
+
+  - type: input
+    id: product
+    attributes:
+      label: Product or area
+      description: Which KeMeK product, tool, or domain would this affect?
+      placeholder: e.g. kemek.net hosting, KeMeK QR, this community repo
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you hitting?
+      description: >-
+        Describe the situation that makes you want this. The problem is more
+        useful to us than the solution — it often has a better answer than the
+        one you had in mind.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like to see?
+      description: Your suggestion, in as much or as little detail as you have.
+    validations:
+      required: true
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: How do you handle it today?
+      description: >-
+        The workaround you use now, or another product that solves it well.
+        Tells us how much pain this actually causes.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you post
+      options:
+        - label: I searched existing ideas and this is not a duplicate.
+          required: true
