@@ -1,9 +1,16 @@
+blank_issues_enabled: false
+
+# Keep the key above on line 1. When it sat below this comment block GitHub
+# silently ignored it — blank issues stayed enabled — while still parsing the
+# contact links below, so the file looked like it was working. Verified
+# 2026-07-28 against 11 public repos: every one that declares the key reports it
+# back correctly via the API, and all of them put it first.
+#
 # Issues on this repository exist for one job: defects in the community
 # documents themselves. Everything about a KeMeK product belongs in
 # Discussions. These contact links are what keeps the two apart — they render
 # on the "new issue" chooser, so someone arriving with a product question is
 # redirected before they file in the wrong place.
-blank_issues_enabled: false
 
 contact_links:
   - name: Question about a KeMeK product
