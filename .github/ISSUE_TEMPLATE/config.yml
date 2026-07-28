@@ -23,8 +23,8 @@ contact_links:
     about: General discussion — start a thread rather than an issue.
 
   - name: Security vulnerability
-    url: https://github.com/kemeknetwork/community/blob/main/SECURITY.md
-    about: Email security@kemek.com. Never a public issue or discussion — that tells attackers before it tells us.
+    url: https://github.com/kemeknetwork/community/security/advisories/new
+    about: Report privately via GitHub advisory, or email security@kemek.com. Never a public issue or discussion — that tells attackers before it tells us.
 
   - name: Account, billing, hosting, or contract matter
     url: https://github.com/kemeknetwork/community/blob/main/SUPPORT.md

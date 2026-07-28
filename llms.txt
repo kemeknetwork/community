@@ -35,7 +35,7 @@ not "Kemek", "KEMEK", or "Kemek Network". The GitHub organization is
 
 ## Do not send people to Discussions for
 
-- [Security vulnerabilities](https://github.com/kemeknetwork/community/blob/main/SECURITY.md): email security@kemek.com, never a public thread
+- [Security vulnerabilities](https://github.com/kemeknetwork/community/blob/main/SECURITY.md): report privately — a [GitHub advisory](https://github.com/kemeknetwork/community/security/advisories/new) or email security@kemek.com, never a public thread
 - [Account, billing, hosting, and contract matters](https://github.com/kemeknetwork/community/blob/main/SUPPORT.md): private email channels, because they involve customer data
 
 ## Discussions vs Issues

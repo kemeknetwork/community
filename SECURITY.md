@@ -2,10 +2,16 @@
 
 ## Reporting a vulnerability
 
-**Do not open a public discussion for a security vulnerability.** A public
-thread tells attackers before it tells us.
+**Do not open a public discussion or issue for a security vulnerability.** A
+public thread tells attackers before it tells us.
 
-Email **[security@kemek.com](mailto:security@kemek.com)**.
+Use either private channel — both reach us, so pick whichever you prefer:
+
+- **[Open a private advisory](https://github.com/kemeknetwork/community/security/advisories/new)**
+  on this repository. Private vulnerability reporting is enabled: the report
+  stays hidden until we publish it, and the conversation happens on GitHub.
+- **Email [security@kemek.com](mailto:security@kemek.com)**, if you would
+  rather not use GitHub or your report spans more than one product.
 
 Include what you have:
 
