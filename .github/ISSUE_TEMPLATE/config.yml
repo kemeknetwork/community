@@ -1,0 +1,31 @@
+# Issues on this repository exist for one job: defects in the community
+# documents themselves. Everything about a KeMeK product belongs in
+# Discussions. These contact links are what keeps the two apart — they render
+# on the "new issue" chooser, so someone arriving with a product question is
+# redirected before they file in the wrong place.
+blank_issues_enabled: false
+
+contact_links:
+  - name: Question about a KeMeK product
+    url: https://github.com/kemeknetwork/community/discussions/categories/q-a
+    about: How something works, why something broke — ask in Q&A and the next person with the same question finds the answer.
+
+  - name: Feature suggestion
+    url: https://github.com/kemeknetwork/community/discussions/categories/ideas
+    about: Propose a change or something new in Ideas, where it can gather votes and discussion.
+
+  - name: Something you built with a KeMeK product
+    url: https://github.com/kemeknetwork/community/discussions/categories/show-and-tell
+    about: Share it in Show and tell.
+
+  - name: Anything else about KeMeK
+    url: https://github.com/kemeknetwork/community/discussions/categories/general
+    about: General discussion — start a thread rather than an issue.
+
+  - name: Security vulnerability
+    url: https://github.com/kemeknetwork/community/blob/main/SECURITY.md
+    about: Email security@kemek.com. Never a public issue or discussion — that tells attackers before it tells us.
+
+  - name: Account, billing, hosting, or contract matter
+    url: https://github.com/kemeknetwork/community/blob/main/SUPPORT.md
+    about: Use the private email channels — these involve customer data and do not belong in public.

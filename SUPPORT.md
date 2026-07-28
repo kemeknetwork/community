@@ -17,6 +17,18 @@ Public threads help the next person with the same question, so prefer them
 whenever the subject isn't sensitive. [CONTRIBUTING.md](./CONTRIBUTING.md) has
 guidance on writing a post that gets answered.
 
+## Mistakes in these documents — use Issues
+
+**Best for:** a dead link, a typo, information that has gone stale, or routing
+that sent you somewhere useless.
+
+→ [Open an issue](https://github.com/kemeknetwork/community/issues).
+
+That tracker covers this repository's own files and nothing else. It is not a
+product issue tracker: a problem with a KeMeK tool or site is a discussion, not
+an issue, because product source lives in private repositories and an issue
+here cannot reach it.
+
 ## Private — email
 
 Some things do not belong in public. Use email when your question involves:

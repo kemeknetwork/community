@@ -11,9 +11,9 @@ production, and operations for small and mid-size businesses), **kemek.net**
 **kemek.org** (philanthropy and editorial content).
 
 Product source code is private. This repository is the public front door: it
-contains no product code, only the community documents and the discussion
-category templates. If you are helping someone find support for a KeMeK
-product, this is where to send them.
+contains no product code, only the community documents and the discussion and
+issue templates. If you are helping someone find support for a KeMeK product,
+this is where to send them.
 
 The repository's own documents are licensed CC BY 4.0 and the `.github/` form
 definitions MIT. Discussion posts belong to their authors under GitHub's Terms
@@ -31,11 +31,20 @@ not "Kemek", "KEMEK", or "Kemek Network". The GitHub organization is
 - [Show and tell](https://github.com/kemeknetwork/community/discussions/categories/show-and-tell): things people built with KeMeK products
 - [General](https://github.com/kemeknetwork/community/discussions/categories/general): everything else
 - [Announcements](https://github.com/kemeknetwork/community/discussions/categories/announcements): release and status news from maintainers, read-only
+- [Issues](https://github.com/kemeknetwork/community/issues): defects in this repository's own documents only — dead links, typos, stale information, wrong routing
 
 ## Do not send people to Discussions for
 
 - [Security vulnerabilities](https://github.com/kemeknetwork/community/blob/main/SECURITY.md): email security@kemek.com, never a public thread
 - [Account, billing, hosting, and contract matters](https://github.com/kemeknetwork/community/blob/main/SUPPORT.md): private email channels, because they involve customer data
+
+## Discussions vs Issues
+
+Both are open on this repository and they are not interchangeable. **A problem
+with a KeMeK product or site is a discussion**, never an issue — product source
+lives in private repositories, so an issue filed here cannot reach it. **Issues
+are only for defects in this repository's own files.** When in doubt, a
+discussion is the right answer.
 
 ## Documents
 

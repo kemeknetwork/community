@@ -1,0 +1,59 @@
+name: Problem with these documents
+description: A dead link, typo, wrong information, or unclear wording in this repository's files.
+title: "[Docs] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This tracker covers **this repository's own documents only** — `README`,
+        `CONTRIBUTING`, `CODE_OF_CONDUCT`, `SECURITY`, `SUPPORT`, `LICENSE`,
+        `llms.txt`, and the templates under `.github/`.
+
+        Anything about a KeMeK product — a question, an idea, a bug in a tool or
+        site — is a
+        [discussion](https://github.com/kemeknetwork/community/discussions),
+        not an issue. **Security vulnerabilities go to security@kemek.com**,
+        never a public thread.
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of problem?
+      options:
+        - Broken or dead link
+        - Typo or grammar
+        - Wrong or outdated information
+        - Routing sends people to the wrong place
+        - Unclear wording
+        - Something else
+    validations:
+      required: true
+
+  - type: input
+    id: file
+    attributes:
+      label: Which file?
+      placeholder: e.g. README.md, SUPPORT.md, .github/DISCUSSION_TEMPLATE/q-a.yml
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: >-
+        Quote the line if you can, and say what it should be instead. For a dead
+        link, paste the URL that failed.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you post
+      options:
+        - label: This is about this repository's documents, not a KeMeK product.
+          required: true
+        - label: This is not a security vulnerability.
+          required: true

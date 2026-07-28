@@ -16,6 +16,7 @@ repositories; **this is the front door.**
 | Show what I built with a KeMeK product | [Show and tell](https://github.com/kemeknetwork/community/discussions/categories/show-and-tell) |
 | Talk about anything else | [General](https://github.com/kemeknetwork/community/discussions/categories/general) |
 | Read release and status news | [Announcements](https://github.com/kemeknetwork/community/discussions/categories/announcements) |
+| Report a mistake in *these documents* | [Issues](https://github.com/kemeknetwork/community/issues) — dead links, typos, wrong routing |
 | Report a security vulnerability | [SECURITY.md](./SECURITY.md) — **never** a public discussion |
 | Reach a human privately (billing, account, contracts) | [SUPPORT.md](./SUPPORT.md) |
 
@@ -39,9 +40,12 @@ Anything under those three is on-topic here.
 
 ## What this repository is not
 
-- **Not an issue tracker.** Discussions, not Issues. There is no triage SLA and
-  no promise that a thread becomes a ticket. Good threads do influence what
-  gets built — that is the point — but the roadmap is not decided here.
+- **Not a product issue tracker.** Issues on this repository track defects in
+  *these documents* — a dead link, a typo, routing that sends people to the
+  wrong place. Anything about a KeMeK product is a discussion, not an issue.
+  There is no triage SLA and no promise that a thread becomes a ticket. Good
+  threads do influence what gets built — that is the point — but the roadmap is
+  not decided here.
 - **Not a support contract.** Paid customers with an account, billing, or
   contractual matter should use the private channels in
   [SUPPORT.md](./SUPPORT.md). Community answers are best-effort, from whoever

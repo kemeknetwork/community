@@ -61,8 +61,13 @@ be a real bug, saying so plainly is more useful than a workaround that hides it.
 
 ## Changes to this repository
 
-Pull requests are welcome against the files here — typos, broken links, unclear
-wording, or a genuinely better explanation in any of these documents.
+Spotted a dead link, a typo, or routing that sent you the wrong way?
+[Open an issue](https://github.com/kemeknetwork/community/issues) — that
+tracker is for defects in *these documents*, and that is the only thing it is
+for. A problem with a KeMeK product is a discussion, not an issue.
+
+Pull requests are welcome against the files here too — typos, broken links,
+unclear wording, or a genuinely better explanation in any of these documents.
 
 - Branch from `dev`, open the PR against `dev`.
 - Keep the scope to one thing.
