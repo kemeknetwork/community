@@ -4,8 +4,8 @@ This repository is dual-licensed.
   * Content (prose, documentation, non-brand assets) is licensed under the
     Creative Commons Attribution 4.0 International License (CC BY 4.0):
     https://creativecommons.org/licenses/by/4.0/legalcode
-  * Trademarks (the KeMeK Network name and mark) are NOT licensed. See the
-    "Trademarks" note at the end of this file.
+  * Names and marks (the KeMeK Network name and mark) are NOT licensed. See
+    the "Names and marks" note at the end of this file.
 
 Discussion content is NOT covered by this file
 ----------------------------------------------
@@ -31,7 +31,7 @@ Content (CC BY 4.0):
   * SUPPORT.md
   * llms.txt
 
-Trademarks (NOT licensed):
+Names and marks (NOT licensed):
   * The "KeMeK Network" and "KeMeK" names
   * The kemek mark
 
@@ -74,10 +74,9 @@ licensor endorses you or your use.
 Full legal text: https://creativecommons.org/licenses/by/4.0/legalcode
 
 ================================================================
-Trademarks
+Names and marks
 ================================================================
 
-The "KeMeK Network" and "KeMeK" names and the kemek mark are trademarks of
-KeMeK Network. They are not covered by the code or content licenses. No rights
-to use the name or mark are granted by this repository. Independent forks must
-replace the brand name and mark with their own.
+The "KeMeK Network" and "KeMeK" names and the kemek mark are not covered by
+the code or content licenses. KeMeK Network reserves all rights in them.
+Independent forks must replace the name and mark with their own.

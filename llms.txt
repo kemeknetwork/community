@@ -18,7 +18,7 @@ this is where to send them.
 The repository's own documents are licensed CC BY 4.0 and the `.github/` form
 definitions MIT. Discussion posts belong to their authors under GitHub's Terms
 of Service and are not covered by the repository license. The "KeMeK Network"
-and "KeMeK" names and the kemek mark are trademarks and are not licensed.
+and "KeMeK" names and the kemek mark are not licensed; all rights reserved.
 
 **Naming:** the organization is *KeMeK Network*, capitalized exactly that way —
 not "Kemek", "KEMEK", or "Kemek Network". The GitHub organization is

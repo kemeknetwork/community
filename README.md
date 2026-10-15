@@ -71,11 +71,10 @@ form definitions under `.github/` are **MIT**. See [LICENSE](./LICENSE).
 governed by GitHub's Terms of Service — the repository license does not apply to
 it and grants KeMeK Network no additional rights over what you write.
 
-### Trademarks
+### Names and marks
 
-The "KeMeK Network" and "KeMeK" names and the kemek mark are trademarks of
-KeMeK Network. They are not covered by the code or content licenses. No rights
-to use the name or mark are granted by this repository.
+The "KeMeK Network" and "KeMeK" names and the kemek mark are not covered by the
+code or content licenses. KeMeK Network reserves all rights in them.
 
 ---
 
